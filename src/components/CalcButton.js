@@ -30,13 +30,13 @@ const styles = StyleSheet.create({
     container: { 
         alignItems: "center", 
         justifyContent:"center", 
-        width: 80, 
+        width: 85, 
         height: 80, 
-        borderRadius: 40, 
-        margin: 5,
+        borderRadius: 25, 
+        margin: 7,
     },
     text: {
-        fontSize: 30, 
+        fontSize: 35, 
         fontWeight:"bold",
     },
 });

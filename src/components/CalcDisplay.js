@@ -10,7 +10,7 @@ export default class CalcDisplay extends React.Component{
 
     render(){
         return (
-            <View>
+            <View style={styles.container}>
                 <Text style={styles.displayText}>{this.props.display}</Text>
             </View>
 
@@ -21,10 +21,11 @@ export default class CalcDisplay extends React.Component{
 const styles = StyleSheet.create({
     container: {
         paddingBottom: 20,
+        paddingEnd: 15,
     },
     displayText: {
         fontSize: 70,
-        color: 'white',
+        color: '#002966',
         textAlign: 'right',
     },
 });
