@@ -1,5 +1,4 @@
 # Calculator
-REACT NATIVE
 <table>
   <tr>
     <td><img src="/assets/screenshot.png" width=270 height=560></td>
